@@ -1,7 +1,8 @@
-# Boilerplate Meteor Project
+# Notes App - Meteor Cse
 
-This includes a basic react and auth setup.
+A small app that allows user to make & store notes.
+This is a dev to highlight the value of testing through the development process
 
 ## Authors
-
+Andrew Mead
 GeeTee
