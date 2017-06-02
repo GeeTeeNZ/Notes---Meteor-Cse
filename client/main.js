@@ -13,14 +13,14 @@ Tracker.autorun(() => {
 });
 
 Tracker.autorun(() => {
-  const selectNoteId = Session.get('selectNoteId');
+  const selectedNoteId = Session.get('selectedNoteId');
 
-  if (selectNoteId){
-    browserHistory.replace(`/dashboard/${selectNoteId}`);
+  if (selectedNoteId){
+    browserHistory.replace(`/dashboard/${selectedNoteId}`);
   }
 });
 
 Meteor.startup(() => {
-  Session.set('selectNoteId', undefined);
+  Session.set('selectedNoteId', undefined);
   ReactDOM.render(routes, document.getElementById('app'));
 });
