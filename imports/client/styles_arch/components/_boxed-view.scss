@@ -1,4 +1,4 @@
-.boxed-view {
+.boxed-view{
   align-items: center;
   display: flex;
   justify-content: center;
@@ -6,13 +6,13 @@
   width: 100vw;
 }
 
-.boxed-view--modal {
-  background: fade-out($boxed-view-overlay-bg, .3);
+.boxed-view--modal{
+  background: fade-out($boxed-view-overlay-bg, 0.3);
   position: fixed;
   top: 0;
-  left: 0;
   right: 0;
   bottom: 0;
+  left: 0;
 }
 
 .boxed-view__box {
@@ -23,7 +23,7 @@
   width: 24rem;
 }
 
-.boxed-view__form {
+.boxed-view__form{
   display: flex;
   flex-direction: column;
 }

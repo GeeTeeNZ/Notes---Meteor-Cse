@@ -1,9 +1,9 @@
-.header {
+.header{
   background: $header-bg;
   color: $header-color;
 }
 
-.header__content {
+.header__content{
   display: flex;
   height: $header-height;
   justify-content: space-between;
@@ -12,6 +12,6 @@
   padding: $space;
 }
 
-.header__title {
+.header__title{
   margin: 0;
 }
