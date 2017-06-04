@@ -45,6 +45,7 @@ PrivateHeader.propTypes ={
 export default createContainer(()=>{
   return {
     handleLogout: () => Accounts.logout(),
-    handleNavToggle: () => Session.set('isNavOpen', !Session.get('isNavOpen'))
+    handleNavToggle: () => Session.set('isNavOpen', !Session.get('isNavOpen')),
+    isNavOpen: Session.get('isNavOpen')
   };
 }, PrivateHeader);
